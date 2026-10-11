@@ -7,6 +7,7 @@ Component data for the REDA electronics design app, kept at fixed revisions so t
 | Folder | Content | Source | Licence |
 | --- | --- | --- | --- |
 | `kicad-packages3D/` | 3D models of electronic packages in WRL (VRML 2.0) format, unmodified, in the upstream folder layout | [KiCad packages3D library](https://gitlab.com/kicad/libraries/kicad-packages3D), tag `8.0.9`, commit `fdd65b7b79d120b3c36b83c125297af7b4522f4f` | CC BY-SA 4.0 with the KiCad libraries exception, see `kicad-packages3D/LICENSE.md` and `kicad-packages3D/CREDITS.md` |
+| `generated/` | Footprints and closed 3D models (STEP and WRL) of 20 ceramic prototype packages the KiCad library does not have: side-brazed DIP, J-leaded and leadless chip carriers, ceramic quad flat packs, pin grid arrays, ceramic-cavity QFN | Generated with the [KiCad footprint and 3D model generators](https://gitlab.com/kicad/libraries/kicad-footprint-generator) at commit `a903a695bf4e69905e9e56548f44dd46cdc1130e`, and for the chip carriers and pin grid arrays with scripts of our own through the same exporter | CC BY-SA 4.0 with the KiCad libraries exception; the exporter writes that notice into every file |
 
 `kicad-packages3D/MANIFEST.json` lists every model file with its size and SHA-256 hash, and names the upstream tag and commit. Each model file carries its licence notice in its own header.
 
@@ -24,6 +25,16 @@ Each library folder here keeps the upstream `CREDITS.md` of that folder, which n
 - One WRL unit is 2.54 mm.
 - A model is aligned with the KiCad footprint of the same name: surface-mount parts are centred on the footprint origin, through-hole parts have their origin on pin 1.
 - A file is addressed by its upstream path: `kicad-packages3D/<Library>.3dshapes/<Name>.wrl`.
+
+## The generated packages
+
+`generated/GENERATED.md` records, for each package, the generator or script, the parameters and the published source of each dimension. Body size, thickness, pitch and recommended die size come from a manufacturer's public tables; lead and pad shapes from one manufacturer drawing per family. Cavity depth, floor thickness, the bond finger ring, the seal ring and most lid sizes are typical values, marked "typical, not sourced" there. Check the drawing of the actual package before sending a board to fabrication.
+
+- `generated/<Library>.3dshapes/<Name>.wrl` and `.step`: the closed model, lid on, at most about 6,300 triangles.
+- `generated/<Library>.pretty/<Name>.kicad_mod`: the footprint in KiCad's format.
+- `generated/footprints/<Name>.json`: the same land pattern as plain data, in millimetres, y pointing down.
+- `generated/cavities.json`: cavity opening and depth, die attach area, bond finger ring and lid, for drawing the open view with a die inside.
+- `generated/MANIFEST.json`: size and SHA-256 of every file in the folder.
 
 ## Using a file
 

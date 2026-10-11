@@ -1,0 +1,406 @@
+{
+ "files": {
+  "GENERATED.md": {
+   "bytes": 35953,
+   "sha256": "ec034516cc6df99958ab4c1a5fc3ce306c644cd5b85dade045a5002b0a458ea3"
+  },
+  "Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_CeramicCavity.step": {
+   "bytes": 82577,
+   "sha256": "80e3eedbda9a1442111b655e76225a2c64ef602360f8c4bf7af074f38a95c566"
+  },
+  "Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_CeramicCavity.wrl": {
+   "bytes": 132063,
+   "sha256": "c62fdf91674efe79c2609b1d2e28e12f8fbfbae74900e5fe3699da2ed657a9af"
+  },
+  "Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_CeramicCavity.step": {
+   "bytes": 117564,
+   "sha256": "30c13ed442f3e60a33120aaf204a9ff876bc52109005c91c725f50cd3e12dbe5"
+  },
+  "Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_CeramicCavity.wrl": {
+   "bytes": 193086,
+   "sha256": "19af92537784a8988495e9be619c8e642ec3aac7499d9cc83b6ac0a2ec43c44e"
+  },
+  "Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm_CeramicCavity.step": {
+   "bytes": 152995,
+   "sha256": "993b415e2bd7a0932bc2eaf529cd8276e279fbfbbd5779368648e2eb8c66ce76"
+  },
+  "Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm_CeramicCavity.wrl": {
+   "bytes": 254112,
+   "sha256": "58f45959522f049603a00aef234eae02ad51462b552023a0c17b5e7dd762d82c"
+  },
+  "Package_DFN_QFN.pretty/QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_CeramicCavity.kicad_mod": {
+   "bytes": 9267,
+   "sha256": "c88d47b9b6eee91c22344a794f7146a8467dd175f1692fae38ec9b36af2a1a92"
+  },
+  "Package_DFN_QFN.pretty/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_CeramicCavity.kicad_mod": {
+   "bytes": 11378,
+   "sha256": "e9b75f09f1cf79329e29e0913619fdb09d76e2fd44170e549fea028382dd0bef"
+  },
+  "Package_DFN_QFN.pretty/QFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm_CeramicCavity.kicad_mod": {
+   "bytes": 13474,
+   "sha256": "ff198debb6305a5332657cd3b67b67b7d5cfb06c0d14996af17f55ff119a887f"
+  },
+  "Package_DIP.3dshapes/CERDIP-16_W7.62mm_SideBrazed.step": {
+   "bytes": 205159,
+   "sha256": "0ccf172ed3ebe92394b47c916276af1b51a3e53ee528f90909e687d5acf55d85"
+  },
+  "Package_DIP.3dshapes/CERDIP-16_W7.62mm_SideBrazed.wrl": {
+   "bytes": 75414,
+   "sha256": "943dd70e55bb4a1eb15a870f7d31a640226373681ea9368b7127154c39ef6981"
+  },
+  "Package_DIP.3dshapes/CERDIP-24_W15.24mm_SideBrazed.step": {
+   "bytes": 327963,
+   "sha256": "0bea9a6f8254a37334be9660476a1fb3d4efac2759c052235e8b9206dee05805"
+  },
+  "Package_DIP.3dshapes/CERDIP-24_W15.24mm_SideBrazed.wrl": {
+   "bytes": 109711,
+   "sha256": "9e42205515462740ab871b197368e4e15a8436aa32d80ec11a518709659c3d7b"
+  },
+  "Package_DIP.3dshapes/CERDIP-28_W15.24mm_SideBrazed.step": {
+   "bytes": 377135,
+   "sha256": "77da287f7b947981cbc3073f61ed10dd637539eb4d8f9a635b14322dff8674ac"
+  },
+  "Package_DIP.3dshapes/CERDIP-28_W15.24mm_SideBrazed.wrl": {
+   "bytes": 127081,
+   "sha256": "07c26f275175399711b73f02f796f20f34c44b8168c8841a7fc6dbb9c91c2b0b"
+  },
+  "Package_DIP.3dshapes/CERDIP-40_W15.24mm_SideBrazed.step": {
+   "bytes": 542318,
+   "sha256": "bbccc666814316aee1ed5f1864312a04220029762104ba4604bf7d7ebdb42d7f"
+  },
+  "Package_DIP.3dshapes/CERDIP-40_W15.24mm_SideBrazed.wrl": {
+   "bytes": 179208,
+   "sha256": "605c4daebb155d14900ed6ee648fed1b20024fd98559f98d37975af8ffa29ed1"
+  },
+  "Package_DIP.3dshapes/CERDIP-48_W15.24mm_SideBrazed.step": {
+   "bytes": 653647,
+   "sha256": "bbed6e068a9a6574eb5cf9f80501846087b725cf4e32519729c112225801aacf"
+  },
+  "Package_DIP.3dshapes/CERDIP-48_W15.24mm_SideBrazed.wrl": {
+   "bytes": 213948,
+   "sha256": "85723fa63ef95b42cefe37a1c1a5ee60c09a2e15edd1918ce1d5ae9c7cfb0bfb"
+  },
+  "Package_DIP.3dshapes/CERDIP-8_W7.62mm_SideBrazed.step": {
+   "bytes": 112707,
+   "sha256": "b5eac31d449acab574ca949791e55d16f91071f0477ad61e3adaf7011ce06d9c"
+  },
+  "Package_DIP.3dshapes/CERDIP-8_W7.62mm_SideBrazed.wrl": {
+   "bytes": 41390,
+   "sha256": "b7b86d046a0030d50590912a85049ddd913541a9986f593853a4734b3a66fd40"
+  },
+  "Package_DIP.pretty/CERDIP-16_W7.62mm_SideBrazed.kicad_mod": {
+   "bytes": 4861,
+   "sha256": "95857896a4f3d2ab9f276adfe3702b4966e0cc9e952d54c5ba9aa5eef468622b"
+  },
+  "Package_DIP.pretty/CERDIP-16_W7.62mm_SideBrazed_LongPads.kicad_mod": {
+   "bytes": 4877,
+   "sha256": "12d3739ab7b4ce2dc545ad39bf8cc01319fc62cb3bf20acb8796d02951b898f4"
+  },
+  "Package_DIP.pretty/CERDIP-16_W7.62mm_SideBrazed_LongPads_Socket.kicad_mod": {
+   "bytes": 5175,
+   "sha256": "3e96d17cb25aa9cde12afc57e1b890cfd6eb48b2ba65d719b8119f3e6baad748"
+  },
+  "Package_DIP.pretty/CERDIP-16_W7.62mm_SideBrazed_Socket.kicad_mod": {
+   "bytes": 5159,
+   "sha256": "7cb99b77ea5e024906b5664d8de9d2c47e485769ea51e3a78b46f7bd33c31206"
+  },
+  "Package_DIP.pretty/CERDIP-24_W15.24mm_SideBrazed.kicad_mod": {
+   "bytes": 5976,
+   "sha256": "45e7e20518d1bc3f9210193e12753b28ad76420b8c5702a375e607b09f10eff7"
+  },
+  "Package_DIP.pretty/CERDIP-24_W15.24mm_SideBrazed_LongPads.kicad_mod": {
+   "bytes": 5976,
+   "sha256": "9ef2c8ba15c5cbc3cb7ba636d5d8c92a79478698260a924b7e9ff738c36be799"
+  },
+  "Package_DIP.pretty/CERDIP-24_W15.24mm_SideBrazed_LongPads_Socket.kicad_mod": {
+   "bytes": 6275,
+   "sha256": "9ce498245e65e67e3c0879c346e00d2013a20e5fce3881963c1586c7773ffcc9"
+  },
+  "Package_DIP.pretty/CERDIP-24_W15.24mm_SideBrazed_Socket.kicad_mod": {
+   "bytes": 6275,
+   "sha256": "8bf41253eef835afdd71b6432ebd65261a1478a86f5b5515d563b8c9f6d3c64f"
+  },
+  "Package_DIP.pretty/CERDIP-28_W15.24mm_SideBrazed.kicad_mod": {
+   "bytes": 6512,
+   "sha256": "f7e6e23ba0943d99053d551430a0d0fbe2e5ef9b5b2070dc1f568a151a5648a4"
+  },
+  "Package_DIP.pretty/CERDIP-28_W15.24mm_SideBrazed_LongPads.kicad_mod": {
+   "bytes": 6504,
+   "sha256": "448c7fcfbdced884bd9996109fc74ada48a418243d90be83bf8b545c925a8cda"
+  },
+  "Package_DIP.pretty/CERDIP-28_W15.24mm_SideBrazed_LongPads_Socket.kicad_mod": {
+   "bytes": 6802,
+   "sha256": "282bd1e0c8bcd09e449876a4f8c4f250f3535e4256e024c05cd143c2f9bc458a"
+  },
+  "Package_DIP.pretty/CERDIP-28_W15.24mm_SideBrazed_Socket.kicad_mod": {
+   "bytes": 6810,
+   "sha256": "435a44ae8585194defece1fbe24574c636904d9ed6d1337dc13597d01798683b"
+  },
+  "Package_DIP.pretty/CERDIP-40_W15.24mm_SideBrazed.kicad_mod": {
+   "bytes": 8118,
+   "sha256": "9960d99e2b8590a52cf554f72ff85c5425c81314296070affc34aabdc2d15b7c"
+  },
+  "Package_DIP.pretty/CERDIP-40_W15.24mm_SideBrazed_LongPads.kicad_mod": {
+   "bytes": 8086,
+   "sha256": "2f7818da197aabdff8fdd05e1faa547c6ad4022be0912b52bd6a8b4423d1bd48"
+  },
+  "Package_DIP.pretty/CERDIP-40_W15.24mm_SideBrazed_LongPads_Socket.kicad_mod": {
+   "bytes": 8385,
+   "sha256": "6fd7c31e1d358625d1c7dadb8286d9db57ca8854a8dc3f9bec5f3637e1a3df02"
+  },
+  "Package_DIP.pretty/CERDIP-40_W15.24mm_SideBrazed_Socket.kicad_mod": {
+   "bytes": 8417,
+   "sha256": "c723585860d384b653483e36f7a00055a6a222560a005f0a42a2113c1e2b3b32"
+  },
+  "Package_DIP.pretty/CERDIP-48_W15.24mm_SideBrazed.kicad_mod": {
+   "bytes": 9188,
+   "sha256": "2032ea45deb4039d7bee711b203250829bad8100350e9a8f5edd0555651f5a4a"
+  },
+  "Package_DIP.pretty/CERDIP-48_W15.24mm_SideBrazed_LongPads.kicad_mod": {
+   "bytes": 9140,
+   "sha256": "b7140ad80a2283c74e1247981645f0f4732368572d2c88ff3d1063f5d884cbb8"
+  },
+  "Package_DIP.pretty/CERDIP-48_W15.24mm_SideBrazed_LongPads_Socket.kicad_mod": {
+   "bytes": 9436,
+   "sha256": "629433533a899cc1cc3de8c98d2683341dda548f6216122a1e05e88da38511c3"
+  },
+  "Package_DIP.pretty/CERDIP-48_W15.24mm_SideBrazed_Socket.kicad_mod": {
+   "bytes": 9484,
+   "sha256": "9f4786426e836da7b273a2cc1413d51503c77b86b24901daebc8810fee6ffa75"
+  },
+  "Package_DIP.pretty/CERDIP-8_W7.62mm_SideBrazed.kicad_mod": {
+   "bytes": 3818,
+   "sha256": "53a8ad11392684a43bba64d1f089a52f2d128cc6188bdc4dda2ee6073136d2ae"
+  },
+  "Package_DIP.pretty/CERDIP-8_W7.62mm_SideBrazed_LongPads.kicad_mod": {
+   "bytes": 3850,
+   "sha256": "1e2fb077076059dad6953db0424a7225f6f9288a7df9edbb5388cb5d6bf33380"
+  },
+  "Package_DIP.pretty/CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket.kicad_mod": {
+   "bytes": 4151,
+   "sha256": "6721f39c2af712f56ef128c86b26765537bf5cb6d8830ec1dffc1c753e45810a"
+  },
+  "Package_DIP.pretty/CERDIP-8_W7.62mm_SideBrazed_Socket.kicad_mod": {
+   "bytes": 4119,
+   "sha256": "5a236bb969f42527afd58e602c9714fc0369635a7f6ebcd54104083f6c010461"
+  },
+  "Package_LCC.3dshapes/CLCC-28_11.43x11.43mm_P1.27mm.step": {
+   "bytes": 164998,
+   "sha256": "d2efb787f591852e9683b3e5984816241122c8c1f20c3d08889be1f5e4822417"
+  },
+  "Package_LCC.3dshapes/CLCC-28_11.43x11.43mm_P1.27mm.wrl": {
+   "bytes": 65280,
+   "sha256": "abbf3c088839082abcb5720bc4bcdb9186b88873c87d655dc6443daff5f6eb10"
+  },
+  "Package_LCC.3dshapes/CLCC-44_16.51x16.51mm_P1.27mm.step": {
+   "bytes": 249630,
+   "sha256": "9d58c9fc8cb9e902c9ab7c494fef1a5e669598da3641ef20e168be3984000ee1"
+  },
+  "Package_LCC.3dshapes/CLCC-44_16.51x16.51mm_P1.27mm.wrl": {
+   "bytes": 97152,
+   "sha256": "81a0a0aa74f376e226bdd1c18e8399dea29d47cebdddba3c7308411d47ff0d57"
+  },
+  "Package_LCC.3dshapes/JLCC-44_16.5x16.5mm_P1.27mm.step": {
+   "bytes": 450486,
+   "sha256": "fd293ee33c75f7111ec77ba0c159036d01941a54a83c73a615e44c5e37aaa73b"
+  },
+  "Package_LCC.3dshapes/JLCC-44_16.5x16.5mm_P1.27mm.wrl": {
+   "bytes": 148368,
+   "sha256": "faab50d0292b63cacc5ccd8fd44e723259e24575357fef2375c997acd015f71d"
+  },
+  "Package_LCC.3dshapes/JLCC-68_24.1x24.1mm_P1.27mm.step": {
+   "bytes": 698309,
+   "sha256": "983a06235953c62f0b8d80d420001042f0789e2f009f8c7107ff668e6e2b2eec"
+  },
+  "Package_LCC.3dshapes/JLCC-68_24.1x24.1mm_P1.27mm.wrl": {
+   "bytes": 224112,
+   "sha256": "a88181ae1d041a96c36a3d1af77fd9d002fe60a4544f058693edc70c2bddc412"
+  },
+  "Package_LCC.3dshapes/JLCC-84_29.2x29.2mm_P1.27mm.step": {
+   "bytes": 861822,
+   "sha256": "ca281563836c7e6bd1e7e9bfbf7e6b17790608c778fba2ffad10d692e4024565"
+  },
+  "Package_LCC.3dshapes/JLCC-84_29.2x29.2mm_P1.27mm.wrl": {
+   "bytes": 274608,
+   "sha256": "ae35bb30ea89f2b833a38649aa9cfc4b35e17541c72d55d8f27da4e4c7b6f39c"
+  },
+  "Package_LCC.pretty/CLCC-28_11.43x11.43mm_P1.27mm.kicad_mod": {
+   "bytes": 7258,
+   "sha256": "47ea8655a8c52c49624b16b4ac3e61e097a4e52c9b87f75623da96a249185331"
+  },
+  "Package_LCC.pretty/CLCC-44_16.51x16.51mm_P1.27mm.kicad_mod": {
+   "bytes": 9308,
+   "sha256": "8266436e58db04be9f46843834a8cdfe2a0e121b5a1c98fb0d88ec6129355d39"
+  },
+  "Package_LCC.pretty/JLCC-44_16.5x16.5mm_P1.27mm.kicad_mod": {
+   "bytes": 11761,
+   "sha256": "0c743999183e4978c499a323ad2c8a2f8c10b971da12727f53a5354ec62988a0"
+  },
+  "Package_LCC.pretty/JLCC-68_24.1x24.1mm_P1.27mm.kicad_mod": {
+   "bytes": 15249,
+   "sha256": "e7e94ecef9ea8ff8b5d744d921c8f01821717a4d00e1c8a0ccae40e14ebea119"
+  },
+  "Package_LCC.pretty/JLCC-84_29.2x29.2mm_P1.27mm.kicad_mod": {
+   "bytes": 17201,
+   "sha256": "cf68223e8c76a983a4c655e8fd78679508284e15c9082e0e8d659667b9e2ebdb"
+  },
+  "Package_PGA.3dshapes/CPGA-144_40.01x40.01mm_Layout15x15_P2.54mm.step": {
+   "bytes": 939053,
+   "sha256": "e5ebe465e57bfdc2ed0699e2e4f09a2bdda571fe96e5121f87ef3c2668dfbf35"
+  },
+  "Package_PGA.3dshapes/CPGA-144_40.01x40.01mm_Layout15x15_P2.54mm.wrl": {
+   "bytes": 300900,
+   "sha256": "135ac94dd38aadcc023c5278d0d5262d088b8c3ffe3d101794eccfa3f36a7192"
+  },
+  "Package_PGA.3dshapes/CPGA-84_27.94x27.94mm_Layout11x11_P2.54mm.step": {
+   "bytes": 544402,
+   "sha256": "ad329c3585f62dfa7f55d347a79e2fde2b1a588fcb05acd61a12e2904a6e8be2"
+  },
+  "Package_PGA.3dshapes/CPGA-84_27.94x27.94mm_Layout11x11_P2.54mm.wrl": {
+   "bytes": 176814,
+   "sha256": "a11d566c17dff03ccb5baa4d8886904ef3c657709886fe06e5c10174c002c2e6"
+  },
+  "Package_PGA.pretty/CPGA-144_40.01x40.01mm_Layout15x15_P2.54mm.kicad_mod": {
+   "bytes": 22462,
+   "sha256": "a8d91ecf345e65674f6fb9d2314f66578de43dd7542c086934c12b3710495260"
+  },
+  "Package_PGA.pretty/CPGA-84_27.94x27.94mm_Layout11x11_P2.54mm.kicad_mod": {
+   "bytes": 14245,
+   "sha256": "56bec170490540aad05d50428f14f450a26270aec036a6f3a0f961356f6f2450"
+  },
+  "Package_QFP.3dshapes/CQFP-100_13.97x13.97mm_P0.5mm.step": {
+   "bytes": 826490,
+   "sha256": "e7ad92362d02694f7b79f4e163c41108d53a24cc3dcd23306b9ce436e287a6a4"
+  },
+  "Package_QFP.3dshapes/CQFP-100_13.97x13.97mm_P0.5mm.wrl": {
+   "bytes": 267581,
+   "sha256": "266b10a77ff546f96bfab90ebe9ed1e11fba1213683c857052de75a98dcc070f"
+  },
+  "Package_QFP.3dshapes/CQFP-144_19.2x19.2mm_P0.5mm.step": {
+   "bytes": 1200291,
+   "sha256": "40f98d5463e9ffcb98eeccaf7d75fe32ca9aade51a798f2ac0353e0cd34fa2cc"
+  },
+  "Package_QFP.3dshapes/CQFP-144_19.2x19.2mm_P0.5mm.wrl": {
+   "bytes": 380837,
+   "sha256": "a03c228ccd071ce9cdf88e1aedb48fc456b71803731090e8c22937adc0b0f734"
+  },
+  "Package_QFP.3dshapes/CQFP-44_10x10mm_P0.8mm.step": {
+   "bytes": 566027,
+   "sha256": "25e4c7cc109b6123d9ea7a37eda980e499d517d061ea166578e22fddb62ad009"
+  },
+  "Package_QFP.3dshapes/CQFP-44_10x10mm_P0.8mm.wrl": {
+   "bytes": 293969,
+   "sha256": "ef004f62dc8780e2c242bff10ae84182f0f4fec87ef3c941f9d7148de68b0623"
+  },
+  "Package_QFP.3dshapes/CQFP-64_10x10mm_P0.5mm.step": {
+   "bytes": 815333,
+   "sha256": "beda05a97a451dda6047fbeee372beb2d36c0b75bc247e0dec6d0ca550e1b8b9"
+  },
+  "Package_QFP.3dshapes/CQFP-64_10x10mm_P0.5mm.wrl": {
+   "bytes": 421161,
+   "sha256": "a7ad70752f6045ef247bc801a63603cdb2ec3efb9bdc82483a04910a5547f8cd"
+  },
+  "Package_QFP.pretty/CQFP-100_13.97x13.97mm_P0.5mm.kicad_mod": {
+   "bytes": 16394,
+   "sha256": "d4ac6d648d3a12ab27aa849084e006ee8aa0f4f512329518fcc1fd6ebbbc65a0"
+  },
+  "Package_QFP.pretty/CQFP-144_19.2x19.2mm_P0.5mm.kicad_mod": {
+   "bytes": 22323,
+   "sha256": "f66e458ffdf5ee02387121d631368a2ea78e66070d8437a3b53e7181e7b96d16"
+  },
+  "Package_QFP.pretty/CQFP-44_10x10mm_P0.8mm.kicad_mod": {
+   "bytes": 9485,
+   "sha256": "7b7af8d3e17e2393b579d6d4419acc65d868eec6e316902a930879c3b0c7c1e8"
+  },
+  "Package_QFP.pretty/CQFP-64_10x10mm_P0.5mm.kicad_mod": {
+   "bytes": 11997,
+   "sha256": "fbeb355faa24e0b302902e1be7bd5b1897af53318ee2f4a8f400a6900735bca7"
+  },
+  "cavities.json": {
+   "bytes": 32679,
+   "sha256": "947502194e7c830ebf342e9e2f70d3a9e31238da64022e3cb4950defbdc93b77"
+  },
+  "footprints/CERDIP-16_W7.62mm_SideBrazed.json": {
+   "bytes": 2086,
+   "sha256": "bcad36f7d7d6d4f31d67d6ceebada721df3acf69decdb674efa78e21923078fb"
+  },
+  "footprints/CERDIP-24_W15.24mm_SideBrazed.json": {
+   "bytes": 3024,
+   "sha256": "bf8bd7b257dffe889e624d02ee34eb664c477dc833433007d25917f9620e5518"
+  },
+  "footprints/CERDIP-28_W15.24mm_SideBrazed.json": {
+   "bytes": 3489,
+   "sha256": "04d09b5b3926bd6c5f697e243139e7736b0141fe993bcf1090ff9f64c57d8aa5"
+  },
+  "footprints/CERDIP-40_W15.24mm_SideBrazed.json": {
+   "bytes": 4876,
+   "sha256": "728faec19511c2166c395f469bfa2bd939001ec078e8635f4143a942cbae40e3"
+  },
+  "footprints/CERDIP-48_W15.24mm_SideBrazed.json": {
+   "bytes": 5804,
+   "sha256": "2fa3c9cd2ce526ecfe7aea199db407d6c6e6c06280ab4a6bccd7d18c797d3720"
+  },
+  "footprints/CERDIP-8_W7.62mm_SideBrazed.json": {
+   "bytes": 1164,
+   "sha256": "cb67074526a47d1bb2fc1f471dc7e002fc3a77fc1271c78f14686118b1af658b"
+  },
+  "footprints/CLCC-28_11.43x11.43mm_P1.27mm.json": {
+   "bytes": 3153,
+   "sha256": "4cab96f987fc03008149b537acd52b105ed5ec3daa05b87d72f2963c3f720463"
+  },
+  "footprints/CLCC-44_16.51x16.51mm_P1.27mm.json": {
+   "bytes": 4817,
+   "sha256": "9de785d146f1eb8af0865cebad5182755f7006c5ef418c4a1607366fe5343dbc"
+  },
+  "footprints/CPGA-144_40.01x40.01mm_Layout15x15_P2.54mm.json": {
+   "bytes": 17031,
+   "sha256": "397afd6e6dfce26a2d741fc255e75f1f6f98d47497bffb1b75af8d24efa223b8"
+  },
+  "footprints/CPGA-84_27.94x27.94mm_Layout11x11_P2.54mm.json": {
+   "bytes": 10001,
+   "sha256": "b548e29c1e2028376dec51b0ba724ddacb3bfd65ad86088ed731f7cedc4bcf41"
+  },
+  "footprints/CQFP-100_13.97x13.97mm_P0.5mm.json": {
+   "bytes": 10344,
+   "sha256": "46c9fb59d572aa878ee94941c10e2fbfde8778ee96d45c91ce0e423b962b1389"
+  },
+  "footprints/CQFP-144_19.2x19.2mm_P0.5mm.json": {
+   "bytes": 15118,
+   "sha256": "64baddced439cbd2f7af4b41c7c4ab275153cfc3c002941bb1adb3b564308643"
+  },
+  "footprints/CQFP-44_10x10mm_P0.8mm.json": {
+   "bytes": 4678,
+   "sha256": "7ccaf91bd54d0e9fd14e2d4981dfa59f119f1865eadcb315592623cc9f0d46c0"
+  },
+  "footprints/CQFP-64_10x10mm_P0.5mm.json": {
+   "bytes": 6764,
+   "sha256": "9fa5e890c0a8af418eafbce30efc9a1bac687d65c153e2003f9bc36b46261055"
+  },
+  "footprints/JLCC-44_16.5x16.5mm_P1.27mm.json": {
+   "bytes": 4857,
+   "sha256": "7b6f6b9c27175defb7ae5f4ef8677334eac3cdf8c134cb70b922cd1570322883"
+  },
+  "footprints/JLCC-68_24.1x24.1mm_P1.27mm.json": {
+   "bytes": 7591,
+   "sha256": "990c2fd39a450edd900d89c905114376575661c935db6e01cf66c6c8a170e9d8"
+  },
+  "footprints/JLCC-84_29.2x29.2mm_P1.27mm.json": {
+   "bytes": 9157,
+   "sha256": "f99c660ab10489aa08f0db9da3e3fa0ada9be36309a0c714fc2e26cb6dbb15f8"
+  },
+  "footprints/QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_CeramicCavity.json": {
+   "bytes": 3777,
+   "sha256": "a41aca0332bfb70dabe924baa6787c4d6334cfdc4e84fe369b494f340186da8b"
+  },
+  "footprints/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_CeramicCavity.json": {
+   "bytes": 5493,
+   "sha256": "9408a21ec4f78317c3dc73ca9b686074824a3446273ee17613d3b0079cc43035"
+  },
+  "footprints/QFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm_CeramicCavity.json": {
+   "bytes": 7207,
+   "sha256": "063f905fa248f201a96e42c4ed7ad900e9013b9c791e017dd3845b2f42efaa3b"
+  }
+ },
+ "generator": "https://gitlab.com/kicad/libraries/kicad-footprint-generator",
+ "generator_commit": "a903a695bf4e69905e9e56548f44dd46cdc1130e"
+}

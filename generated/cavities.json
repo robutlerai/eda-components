@@ -1,0 +1,1292 @@
+{
+ "_about": "Cavity numbers for the app's open view, mm. Each group carries a basis: 'sourced' (read from the cited page), 'derived' (arithmetic on sourced numbers, formula in the note) or 'typical, not sourced'. Sources per package are in GENERATED.md.",
+ "packages": {
+  "CERDIP-8_W7.62mm_SideBrazed": {
+   "die_attach_pad": {
+    "x": 4.42,
+    "y": 5.59,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 4.02,
+    "y": 5.19,
+    "z": 0.64,
+    "basis": "sourced",
+    "note": "x is across the body (Kyocera's Y), y along it (Kyocera's X)"
+   },
+   "cavity_opening": {
+    "x": 5.9,
+    "y": 8.09,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface; narrowed across the body so the lid still covers it"
+   },
+   "cavity_depth": {
+    "value": 1.52,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 4.92,
+     "y": 6.09
+    },
+    "outer": {
+     "x": 5.9,
+     "y": 8.09
+    },
+    "sides": 2,
+    "fingers_per_side": 4,
+    "finger_pitch": 1.23,
+    "shelf_height_above_floor": 0.64,
+    "basis": "typical, not sourced",
+    "note": "narrow body: fingers on the two ends of the die (the y sides) only"
+   },
+   "lid": {
+    "x": 6.6,
+    "y": 10.09,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.3,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 7.49,
+    "y": 13.21,
+    "thickness": 2.16,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.48,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-SB9F71"
+  },
+  "CERDIP-16_W7.62mm_SideBrazed": {
+   "die_attach_pad": {
+    "x": 4.42,
+    "y": 6.1,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 4.02,
+    "y": 5.7,
+    "z": 0.64,
+    "basis": "sourced",
+    "note": "x is across the body (Kyocera's Y), y along it (Kyocera's X)"
+   },
+   "cavity_opening": {
+    "x": 5.9,
+    "y": 8.6,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface; narrowed across the body so the lid still covers it"
+   },
+   "cavity_depth": {
+    "value": 1.52,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 4.92,
+     "y": 6.6
+    },
+    "outer": {
+     "x": 5.9,
+     "y": 8.6
+    },
+    "sides": 2,
+    "fingers_per_side": 8,
+    "finger_pitch": 0.615,
+    "shelf_height_above_floor": 0.64,
+    "basis": "typical, not sourced",
+    "note": "narrow body: fingers on the two ends of the die (the y sides) only"
+   },
+   "lid": {
+    "x": 6.6,
+    "y": 10.6,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.3,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 7.49,
+    "y": 20.32,
+    "thickness": 2.16,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.48,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-SB9A87"
+  },
+  "CERDIP-24_W15.24mm_SideBrazed": {
+   "die_attach_pad": {
+    "x": 7.87,
+    "y": 7.87,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 7.47,
+    "y": 7.47,
+    "z": 0.64,
+    "basis": "sourced",
+    "note": "x is across the body (Kyocera's Y), y along it (Kyocera's X)"
+   },
+   "cavity_opening": {
+    "x": 10.37,
+    "y": 10.37,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.52,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 8.37,
+     "y": 8.37
+    },
+    "outer": {
+     "x": 10.37,
+     "y": 10.37
+    },
+    "sides": 4,
+    "fingers_per_side": 6,
+    "finger_pitch": 1.395,
+    "shelf_height_above_floor": 0.64,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 12.37,
+    "y": 12.37,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 14.99,
+    "y": 30.48,
+    "thickness": 2.16,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.48,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-SB9F85"
+  },
+  "CERDIP-28_W15.24mm_SideBrazed": {
+   "die_attach_pad": {
+    "x": 7.87,
+    "y": 7.87,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 7.47,
+    "y": 7.47,
+    "z": 0.64,
+    "basis": "sourced",
+    "note": "x is across the body (Kyocera's Y), y along it (Kyocera's X)"
+   },
+   "cavity_opening": {
+    "x": 10.37,
+    "y": 10.37,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.52,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 8.37,
+     "y": 8.37
+    },
+    "outer": {
+     "x": 10.37,
+     "y": 10.37
+    },
+    "sides": 4,
+    "fingers_per_side": 7,
+    "finger_pitch": 1.196,
+    "shelf_height_above_floor": 0.64,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 12.37,
+    "y": 12.37,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 14.99,
+    "y": 35.56,
+    "thickness": 2.16,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.48,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-SB9F91"
+  },
+  "CERDIP-40_W15.24mm_SideBrazed": {
+   "die_attach_pad": {
+    "x": 7.87,
+    "y": 7.87,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 7.47,
+    "y": 7.47,
+    "z": 0.64,
+    "basis": "sourced",
+    "note": "x is across the body (Kyocera's Y), y along it (Kyocera's X)"
+   },
+   "cavity_opening": {
+    "x": 10.37,
+    "y": 10.37,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.52,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 8.37,
+     "y": 8.37
+    },
+    "outer": {
+     "x": 10.37,
+     "y": 10.37
+    },
+    "sides": 4,
+    "fingers_per_side": 10,
+    "finger_pitch": 0.837,
+    "shelf_height_above_floor": 0.64,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 12.37,
+    "y": 12.37,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 14.99,
+    "y": 50.8,
+    "thickness": 2.16,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.48,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-SB9F95"
+  },
+  "CERDIP-48_W15.24mm_SideBrazed": {
+   "die_attach_pad": {
+    "x": 10.16,
+    "y": 10.16,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 9.76,
+    "y": 9.76,
+    "z": 0.64,
+    "basis": "sourced",
+    "note": "x is across the body (Kyocera's Y), y along it (Kyocera's X)"
+   },
+   "cavity_opening": {
+    "x": 12.0,
+    "y": 12.66,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface; narrowed across the body so the lid still covers it"
+   },
+   "cavity_depth": {
+    "value": 1.52,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 10.66,
+     "y": 10.66
+    },
+    "outer": {
+     "x": 12.0,
+     "y": 12.66
+    },
+    "sides": 4,
+    "fingers_per_side": 12,
+    "finger_pitch": 0.888,
+    "shelf_height_above_floor": 0.64,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 13.4,
+    "y": 14.66,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.75,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 14.99,
+    "y": 60.96,
+    "thickness": 2.16,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.48,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-SB9F99"
+  },
+  "JLCC-44_16.5x16.5mm_P1.27mm": {
+   "die_attach_pad": {
+    "x": 7.62,
+    "y": 7.62,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 7.22,
+    "y": 7.22,
+    "z": 0.51,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 10.12,
+    "y": 10.12,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.14,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.51,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 8.12,
+     "y": 8.12
+    },
+    "outer": {
+     "x": 10.12,
+     "y": 10.12
+    },
+    "sides": 4,
+    "fingers_per_side": 11,
+    "finger_pitch": 0.738,
+    "shelf_height_above_floor": 0.51,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 12.48,
+    "y": 12.48,
+    "thickness": 0.25,
+    "basis": "sourced (pairing inferred)"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 16.51,
+    "y": 16.51,
+    "thickness": 1.65,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 2.97,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "PB-F86090-A"
+  },
+  "JLCC-68_24.1x24.1mm_P1.27mm": {
+   "die_attach_pad": {
+    "x": 11.94,
+    "y": 11.94,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 11.54,
+    "y": 11.54,
+    "z": 0.51,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 14.44,
+    "y": 14.44,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.52,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.51,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 12.44,
+     "y": 12.44
+    },
+    "outer": {
+     "x": 14.44,
+     "y": 14.44
+    },
+    "sides": 4,
+    "fingers_per_side": 17,
+    "finger_pitch": 0.732,
+    "shelf_height_above_floor": 0.51,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 16.8,
+    "y": 16.8,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 24.13,
+    "y": 24.13,
+    "thickness": 2.03,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.35,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "PB-F86635"
+  },
+  "JLCC-84_29.2x29.2mm_P1.27mm": {
+   "die_attach_pad": {
+    "x": 7.62,
+    "y": 7.62,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 7.22,
+    "y": 7.22,
+    "z": 0.38,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 10.12,
+    "y": 10.12,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.14,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.51,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 8.12,
+     "y": 8.12
+    },
+    "outer": {
+     "x": 10.12,
+     "y": 10.12
+    },
+    "sides": 4,
+    "fingers_per_side": 21,
+    "finger_pitch": 0.387,
+    "shelf_height_above_floor": 0.38,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 12.48,
+    "y": 12.48,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 29.21,
+    "y": 29.21,
+    "thickness": 1.65,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 2.97,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "PB-F86074"
+  },
+  "CLCC-28_11.43x11.43mm_P1.27mm": {
+   "die_attach_pad": {
+    "x": 7.37,
+    "y": 7.37,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 6.97,
+    "y": 6.97,
+    "z": 0.51,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 8.87,
+    "y": 8.87,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.01,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.51,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 7.87,
+     "y": 7.87
+    },
+    "outer": {
+     "x": 8.87,
+     "y": 8.87
+    },
+    "sides": 4,
+    "fingers_per_side": 7,
+    "finger_pitch": 1.124,
+    "shelf_height_above_floor": 0.51,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 9.65,
+    "y": 9.65,
+    "thickness": 0.25,
+    "basis": "sourced (pairing inferred)"
+   },
+   "seal_ring_width": {
+    "value": 0.8,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 11.43,
+    "y": 11.43,
+    "thickness": 1.52,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 1.82,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "PB-45033-C"
+  },
+  "CLCC-44_16.51x16.51mm_P1.27mm": {
+   "die_attach_pad": {
+    "x": 7.62,
+    "y": 7.62,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 7.22,
+    "y": 7.22,
+    "z": 0.51,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 9.12,
+    "y": 9.12,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.14,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.51,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 8.12,
+     "y": 8.12
+    },
+    "outer": {
+     "x": 9.12,
+     "y": 9.12
+    },
+    "sides": 4,
+    "fingers_per_side": 11,
+    "finger_pitch": 0.738,
+    "shelf_height_above_floor": 0.51,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 12.48,
+    "y": 12.48,
+    "thickness": 0.25,
+    "basis": "sourced (pairing inferred)"
+   },
+   "seal_ring_width": {
+    "value": 0.8,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 16.51,
+    "y": 16.51,
+    "thickness": 1.65,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 1.95,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "PB-81840-B-01"
+  },
+  "CQFP-44_10x10mm_P0.8mm": {
+   "die_attach_pad": {
+    "x": 5.6,
+    "y": 5.6,
+    "basis": "typical, not sourced",
+    "note": "copied from the 64-lead 10 x 10 CERQUAD (QC-064347-WZ)"
+   },
+   "recommended_chip_max": {
+    "x": 5.2,
+    "y": 5.2,
+    "z": 0.38,
+    "basis": "typical, not sourced",
+    "note": "copied from the 64-lead 10 x 10 CERQUAD (QC-064347-WZ)"
+   },
+   "cavity_opening": {
+    "x": 7.0,
+    "y": 7.0,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 0.87,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.38,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 6.1,
+     "y": 6.1
+    },
+    "outer": {
+     "x": 7.0,
+     "y": 7.0
+    },
+    "sides": 4,
+    "fingers_per_side": 11,
+    "finger_pitch": 0.555,
+    "shelf_height_above_floor": 0.38,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 8.0,
+    "y": 8.0,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.5,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 10.0,
+    "y": 10.0,
+    "thickness": 1.25,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 1.75,
+   "seal_ring_metallised": false,
+   "kyocera_standard_part": null
+  },
+  "CQFP-64_10x10mm_P0.5mm": {
+   "die_attach_pad": {
+    "x": 5.6,
+    "y": 5.6,
+    "basis": "sourced",
+    "note": "die cavity column of https://global.kyocera.com/prdct/semicon/semi/std_pkg/pdf/kyocera-pkg-cerquad-e_r0165f.pdf (read from a search excerpt of the list)"
+   },
+   "recommended_chip_max": {
+    "x": 5.2,
+    "y": 5.2,
+    "z": 0.38,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 7.0,
+    "y": 7.0,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 0.87,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.38,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 6.1,
+     "y": 6.1
+    },
+    "outer": {
+     "x": 7.0,
+     "y": 7.0
+    },
+    "sides": 4,
+    "fingers_per_side": 16,
+    "finger_pitch": 0.381,
+    "shelf_height_above_floor": 0.38,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 8.0,
+    "y": 8.0,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.5,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 10.0,
+    "y": 10.0,
+    "thickness": 1.25,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 1.75,
+   "seal_ring_metallised": false,
+   "kyocera_standard_part": "QC-064347-WZ"
+  },
+  "CQFP-100_13.97x13.97mm_P0.5mm": {
+   "die_attach_pad": {
+    "x": 9.8,
+    "y": 9.8,
+    "basis": "sourced",
+    "note": "die cavity column of https://global.kyocera.com/prdct/semicon/semi/std_pkg/pdf/kyocera-pkg-cerquad-e_r0165f.pdf (read from a search excerpt of the list)"
+   },
+   "recommended_chip_max": {
+    "x": 9.4,
+    "y": 9.4,
+    "z": 0.38,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 11.2,
+    "y": 11.2,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 0.57,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.38,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 10.3,
+     "y": 10.3
+    },
+    "outer": {
+     "x": 11.2,
+     "y": 11.2
+    },
+    "sides": 4,
+    "fingers_per_side": 25,
+    "finger_pitch": 0.412,
+    "shelf_height_above_floor": 0.32,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 12.2,
+    "y": 12.2,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.5,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 13.97,
+    "y": 13.97,
+    "thickness": 0.95,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 1.45,
+   "seal_ring_metallised": false,
+   "kyocera_standard_part": "QC-100364-WZ"
+  },
+  "CQFP-144_19.2x19.2mm_P0.5mm": {
+   "die_attach_pad": {
+    "x": 12.0,
+    "y": 12.0,
+    "basis": "sourced",
+    "note": "die cavity column of https://global.kyocera.com/prdct/semicon/semi/std_pkg/pdf/kyocera-pkg-cerquad-e_r0165f.pdf (read from a search excerpt of the list)"
+   },
+   "recommended_chip_max": {
+    "x": 11.6,
+    "y": 11.6,
+    "z": 0.38,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 13.4,
+    "y": 13.4,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 0.72,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.38,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 12.5,
+     "y": 12.5
+    },
+    "outer": {
+     "x": 13.4,
+     "y": 13.4
+    },
+    "sides": 4,
+    "fingers_per_side": 36,
+    "finger_pitch": 0.347,
+    "shelf_height_above_floor": 0.38,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 14.4,
+    "y": 14.4,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.5,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 19.2,
+    "y": 19.2,
+    "thickness": 1.1,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 1.6,
+   "seal_ring_metallised": false,
+   "kyocera_standard_part": "QC-144398-WZ"
+  },
+  "CPGA-84_27.94x27.94mm_Layout11x11_P2.54mm": {
+   "die_attach_pad": {
+    "x": 11.94,
+    "y": 11.94,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 11.54,
+    "y": 11.54,
+    "z": 0.51,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 14.44,
+    "y": 14.44,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.39,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 12.44,
+     "y": 12.44
+    },
+    "outer": {
+     "x": 14.44,
+     "y": 14.44
+    },
+    "sides": 4,
+    "fingers_per_side": 21,
+    "finger_pitch": 0.592,
+    "shelf_height_above_floor": 0.51,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 16.8,
+    "y": 16.8,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 27.94,
+    "y": 27.94,
+    "thickness": 2.03,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.6,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-P85311-A"
+  },
+  "CPGA-144_40.01x40.01mm_Layout15x15_P2.54mm": {
+   "die_attach_pad": {
+    "x": 17.78,
+    "y": 17.78,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 17.38,
+    "y": 17.38,
+    "z": 0.51,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 20.28,
+    "y": 20.28,
+    "basis": "typical, not sourced",
+    "note": "outer edge of the bond finger shelf = opening at the seal surface"
+   },
+   "cavity_depth": {
+    "value": 1.39,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.64,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 18.28,
+     "y": 18.28
+    },
+    "outer": {
+     "x": 20.28,
+     "y": 20.28
+    },
+    "sides": 4,
+    "fingers_per_side": 36,
+    "finger_pitch": 0.508,
+    "shelf_height_above_floor": 0.51,
+    "basis": "typical, not sourced",
+    "note": "fingers shared evenly over the sides; pitch = inner ring side / fingers per side"
+   },
+   "lid": {
+    "x": 22.7,
+    "y": 22.7,
+    "thickness": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 1.0,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 40.01,
+    "y": 40.01,
+    "thickness": 2.03,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 3.6,
+   "seal_ring_metallised": true,
+   "kyocera_standard_part": "KD-P86499-B"
+  },
+  "QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_CeramicCavity": {
+   "die_attach_pad": {
+    "x": 4.2,
+    "y": 4.2,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 3.8,
+    "y": 3.8,
+    "z": 0.4,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 4.2,
+    "y": 4.2,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists). On a body this small the walls left over are only 0.4 mm, so check against the Kyocera drawing"
+   },
+   "cavity_depth": {
+    "value": 0.45,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 4.2,
+     "y": 4.2
+    },
+    "outer": {
+     "x": 4.2,
+     "y": 4.2
+    },
+    "sides": 4,
+    "fingers_per_side": 8,
+    "finger_pitch": 0.525,
+    "shelf_height_above_floor": 0.2,
+    "basis": "typical, not sourced",
+    "note": "single-level cavity: fingers sit on the floor between the die and the wall; ring sizes not known, inner = outer = cavity opening"
+   },
+   "lid": {
+    "x": 4.5,
+    "y": 4.5,
+    "thickness": 0.1,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.3,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 5.0,
+    "y": 5.0,
+    "thickness": 0.7,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 0.8,
+   "seal_ring_metallised": false,
+   "kyocera_standard_part": "PB-EB5643"
+  },
+  "QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_CeramicCavity": {
+   "die_attach_pad": {
+    "x": 6.0,
+    "y": 6.0,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 5.6,
+    "y": 5.6,
+    "z": 0.5,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 6.0,
+    "y": 6.0,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists). On a body this small the walls left over are only 0.5 mm, so check against the Kyocera drawing"
+   },
+   "cavity_depth": {
+    "value": 0.55,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 6.0,
+     "y": 6.0
+    },
+    "outer": {
+     "x": 6.0,
+     "y": 6.0
+    },
+    "sides": 4,
+    "fingers_per_side": 12,
+    "finger_pitch": 0.5,
+    "shelf_height_above_floor": 0.3,
+    "basis": "typical, not sourced",
+    "note": "single-level cavity: fingers sit on the floor between the die and the wall; ring sizes not known, inner = outer = cavity opening"
+   },
+   "lid": {
+    "x": 6.5,
+    "y": 6.5,
+    "thickness": 0.1,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.3,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 7.0,
+    "y": 7.0,
+    "thickness": 0.8,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 0.9,
+   "seal_ring_metallised": false,
+   "kyocera_standard_part": "PB-EB5704"
+  },
+  "QFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm_CeramicCavity": {
+   "die_attach_pad": {
+    "x": 8.0,
+    "y": 8.0,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists)"
+   },
+   "recommended_chip_max": {
+    "x": 7.6,
+    "y": 7.6,
+    "z": 0.5,
+    "basis": "sourced"
+   },
+   "cavity_opening": {
+    "x": 8.0,
+    "y": 8.0,
+    "basis": "derived",
+    "note": "die attach area = Kyocera recommended maximum chip + 0.40 mm (rule checked on four rows of Kyocera's own PDF lists). On a body this small the walls left over are only 0.5 mm, so check against the Kyocera drawing"
+   },
+   "cavity_depth": {
+    "value": 0.55,
+    "basis": "typical, not sourced",
+    "note": "body thickness (sourced) minus floor thickness (typical)"
+   },
+   "body_below_cavity_floor": {
+    "value": 0.25,
+    "basis": "typical, not sourced"
+   },
+   "bond_finger_ring": {
+    "inner": {
+     "x": 8.0,
+     "y": 8.0
+    },
+    "outer": {
+     "x": 8.0,
+     "y": 8.0
+    },
+    "sides": 4,
+    "fingers_per_side": 16,
+    "finger_pitch": 0.5,
+    "shelf_height_above_floor": 0.3,
+    "basis": "typical, not sourced",
+    "note": "single-level cavity: fingers sit on the floor between the die and the wall; ring sizes not known, inner = outer = cavity opening"
+   },
+   "lid": {
+    "x": 8.5,
+    "y": 8.5,
+    "thickness": 0.1,
+    "basis": "typical, not sourced"
+   },
+   "seal_ring_width": {
+    "value": 0.3,
+    "basis": "typical, not sourced"
+   },
+   "body": {
+    "x": 9.0,
+    "y": 9.0,
+    "thickness": 0.8,
+    "basis": "sourced"
+   },
+   "overall_height_lid_on": 0.9,
+   "seal_ring_metallised": false,
+   "kyocera_standard_part": "PB-EB5710"
+  }
+ }
+}
