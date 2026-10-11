@@ -1,0 +1,163 @@
+{
+ "commit": "fdd65b7b79d120b3c36b83c125297af7b4522f4f",
+ "files": {
+  "Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl": {
+   "bytes": 18013,
+   "sha256": "edd1de5a07b3b6d903024aab93512280b5ae5ecc564adc079876b8d80168afc0"
+  },
+  "Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl": {
+   "bytes": 18011,
+   "sha256": "d8b095ab562bf44b3a6bcb4059c87775c51b7c5672480f3b2fdc796f165c8505"
+  },
+  "Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl": {
+   "bytes": 18015,
+   "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801"
+  },
+  "Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl": {
+   "bytes": 18015,
+   "sha256": "c8ce7903eeaceb189976a04f0f67070ad0fe21a7bbcd6605fe60786704368afd"
+  },
+  "Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl": {
+   "bytes": 76096,
+   "sha256": "00d6acefe7032d866397d79638a040de5618472e9f13a460a5cf3565cc25009a"
+  },
+  "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl": {
+   "bytes": 15426,
+   "sha256": "68eadd056ad8e757ea548dec4cd1c4077d97ba964a22b3ffb4005f859e4ae988"
+  },
+  "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl": {
+   "bytes": 21880,
+   "sha256": "977905893df24d3b78b6df51920b8336ea447e26281c3eb48e068c636685cc1f"
+  },
+  "Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x06_P2.54mm_Vertical.wrl": {
+   "bytes": 68517,
+   "sha256": "0744a38beb3fcd4a39916e33410a6edd05e768776d6719c40333a6a930af6bae"
+  },
+  "Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.wrl": {
+   "bytes": 633169,
+   "sha256": "f835dbea38bf8fece0b97dacf5c2fedd158ea2d7774383e7af77c06e1c38a9a1"
+  },
+  "Diode_SMD.3dshapes/D_MiniMELF.wrl": {
+   "bytes": 43329,
+   "sha256": "c034a416425a2641ea69d089d591421bc71947211c71362b9ffa551576778043"
+  },
+  "Diode_SMD.3dshapes/D_SOD-123.wrl": {
+   "bytes": 29362,
+   "sha256": "5fd4e8488bd75b6b0fad9ad82e75257cf19dc83750caac25b29b758def07b636"
+  },
+  "Fuse.3dshapes/Fuse_0402_1005Metric.wrl": {
+   "bytes": 14829,
+   "sha256": "fbefbbf85ac1cfc3de75ea8d54a579c6bad33043ec89e9ea95097ba68c838a3e"
+  },
+  "Fuse.3dshapes/Fuse_0603_1608Metric.wrl": {
+   "bytes": 14831,
+   "sha256": "d108172b4aeb5fcf05da6de79e2f07719719c867fe874b47370936e1dc9e1ec1"
+  },
+  "Fuse.3dshapes/Fuse_0805_2012Metric.wrl": {
+   "bytes": 14831,
+   "sha256": "b1a2d938a1f72a45000fbd94f3bad9ce8c427e295470b327528318eaef425f73"
+  },
+  "Fuse.3dshapes/Fuse_1206_3216Metric.wrl": {
+   "bytes": 14807,
+   "sha256": "778f45add1215d06ce7bf91860d47dfb35401b1875277c1346333d195a76a1b8"
+  },
+  "Inductor_SMD.3dshapes/L_0402_1005Metric.wrl": {
+   "bytes": 18014,
+   "sha256": "8061c43bff1f61b78ca8d5a3761bfe63826290b5f68d0c64609a65353406f78c"
+  },
+  "Inductor_SMD.3dshapes/L_0603_1608Metric.wrl": {
+   "bytes": 18012,
+   "sha256": "cc7fcead1c7655d15a61f29089a6ff6b4ccdf43eb07263a309e3043274fc84fb"
+  },
+  "Inductor_SMD.3dshapes/L_0805_2012Metric.wrl": {
+   "bytes": 18016,
+   "sha256": "3597c1b3958738898394e779a0a2c873ad585a6484366d81ae2c279df56c1531"
+  },
+  "Inductor_SMD.3dshapes/L_1206_3216Metric.wrl": {
+   "bytes": 18016,
+   "sha256": "78dfb537d6b8402f10acd1a0d2831a83400cde50068b16cfaf5f7b8fccaa96b2"
+  },
+  "LED_SMD.3dshapes/LED_0402_1005Metric.wrl": {
+   "bytes": 21674,
+   "sha256": "9a7b1ec4b6b85722623e6a886a586a91e1f6c3030e906ce5d1ef58472c7e8041"
+  },
+  "LED_SMD.3dshapes/LED_0603_1608Metric.wrl": {
+   "bytes": 21674,
+   "sha256": "2ae6364ec5c5c4c39cb54e3edac681674f0bf0ce1d6c8b0b7e659ae0066c1ee8"
+  },
+  "LED_SMD.3dshapes/LED_0805_2012Metric.wrl": {
+   "bytes": 21674,
+   "sha256": "ae2a5dac6d3ac7e99cdc6c4569c64d24cf0c55959b3a68e61b54aed7864280df"
+  },
+  "LED_SMD.3dshapes/LED_1206_3216Metric.wrl": {
+   "bytes": 21674,
+   "sha256": "d29b0db84d8d6252d83a5edaa1aac929ec8920e7a505193fa9409a9401163ea1"
+  },
+  "Package_DIP.3dshapes/DIP-8_W7.62mm.wrl": {
+   "bytes": 69529,
+   "sha256": "eebd3ff6052ef2db634e6a5de6812310666c08b90e0356887759648a3cc93a13"
+  },
+  "Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.wrl": {
+   "bytes": 124574,
+   "sha256": "0c5aed31467ef2b2650924689f8af00d0ae0ce595db29289c9ffd1bc8b74ca5f"
+  },
+  "Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl": {
+   "bytes": 77404,
+   "sha256": "2b84645ac35f878381da69ebf467feab9e5f054922c809c1b28a1586dd4e462d"
+  },
+  "Package_SO.3dshapes/TSSOP-20_4.4x6.5mm_P0.65mm.wrl": {
+   "bytes": 150900,
+   "sha256": "76069fbda2565a8b4916e3f55b3d6126e8b6697d76bcc9302154980181e7ef9b"
+  },
+  "Package_SO.3dshapes/TSSOP-8_3x3mm_P0.65mm.wrl": {
+   "bytes": 77175,
+   "sha256": "c22fbe048050f410bfc4d9e1ad2bc878941faff1c8d21964aee55e823ac0f6a7"
+  },
+  "Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl": {
+   "bytes": 49877,
+   "sha256": "948f0fac31be6678900268969b124c7b1083633da2cd0068604780e562484a86"
+  },
+  "Package_TO_SOT_SMD.3dshapes/SOT-23.wrl": {
+   "bytes": 34049,
+   "sha256": "4a113d4d6a5f3b22024559dc16d03361e7d8154db3dc74fcd7d6736091a0bda7"
+  },
+  "Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl": {
+   "bytes": 34217,
+   "sha256": "3b514f453357a27095160ee5091143e66cadd4be1a3659ce70f6162a115f5ade"
+  },
+  "Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl": {
+   "bytes": 35886,
+   "sha256": "6ead5f1c688c1e3fa6018adf9ac5a1df4650990e373198ca95fc1eb80fde5371"
+  },
+  "Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl": {
+   "bytes": 21376,
+   "sha256": "753eecc0b715a57c2e88740f1825b98331b91924cac7dc9adf3f0b53d585139f"
+  },
+  "Resistor_SMD.3dshapes/R_0402_1005Metric.wrl": {
+   "bytes": 14831,
+   "sha256": "ce89655575a3858f28f001c08aed3f4e4a4b85833d9d3366e0902e44e8d0ebd8"
+  },
+  "Resistor_SMD.3dshapes/R_0603_1608Metric.wrl": {
+   "bytes": 14831,
+   "sha256": "eadfec9e71c67b1dd3910c72b45d811a06f0ab5397d0609354b10e9a3a4c1fdd"
+  },
+  "Resistor_SMD.3dshapes/R_0805_2012Metric.wrl": {
+   "bytes": 14831,
+   "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6"
+  },
+  "Resistor_SMD.3dshapes/R_1206_3216Metric.wrl": {
+   "bytes": 14807,
+   "sha256": "fd1e45a3ad518b96159257b98228b98775f69cf56040c56fb9725bf700f4b34b"
+  },
+  "Resistor_SMD.3dshapes/R_MiniMELF_MMA-0204.wrl": {
+   "bytes": 32431,
+   "sha256": "9864e66a90765173651491faf3cbd9d5ad388e59d862264c5c0e509d34d180f6"
+  },
+  "Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl": {
+   "bytes": 97920,
+   "sha256": "1c2bf3f4c3159d558a91f2b539eec05de80d28c5350b74b08284e7b15e18f82a"
+  }
+ },
+ "tag": "8.0.9",
+ "upstream": "https://gitlab.com/kicad/libraries/kicad-packages3D"
+}

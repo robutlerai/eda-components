@@ -1,0 +1,29 @@
+# eda-components
+
+Component data for the REDA electronics design app, kept at fixed revisions so that a design looks the same every time it is opened.
+
+## What is here
+
+| Folder | Content | Source | Licence |
+| --- | --- | --- | --- |
+| `kicad-packages3D/` | 3D models of electronic packages in WRL (VRML 2.0) format, unmodified, in the upstream folder layout | [KiCad packages3D library](https://gitlab.com/kicad/libraries/kicad-packages3D), tag `8.0.9`, commit `fdd65b7b79d120b3c36b83c125297af7b4522f4f` | CC BY-SA 4.0 with the KiCad libraries exception, see `kicad-packages3D/LICENSE.md` and `kicad-packages3D/CREDITS.md` |
+
+`kicad-packages3D/MANIFEST.json` lists every model file with its size and SHA-256 hash, and names the upstream tag and commit. Each model file carries its licence notice in its own header.
+
+## Conventions of the model files
+
+- One WRL unit is 2.54 mm.
+- A model is aligned with the KiCad footprint of the same name: surface-mount parts are centred on the footprint origin, through-hole parts have their origin on pin 1.
+- A file is addressed by its upstream path: `kicad-packages3D/<Library>.3dshapes/<Name>.wrl`.
+
+## Using a file
+
+Address files by commit hash, never by branch name, so the content cannot change under a design:
+
+```
+https://raw.githubusercontent.com/robutlerai/eda-components/<commit>/kicad-packages3D/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl
+```
+
+## Licence and attribution
+
+The models are the work of the KiCad library contributors. They are redistributed here unmodified under the Creative Commons CC BY-SA 4.0 licence with the KiCad libraries exception. The exception means that a design which uses the models is not itself bound by the share-alike term. Anyone redistributing the models, or parts of them, as a collection keeps the same licence, the licence file and the attribution.
