@@ -1,6 +1,10 @@
 {
  "commit": "fdd65b7b79d120b3c36b83c125297af7b4522f4f",
  "files": {
+  "Button_Switch_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx31-2LFS.wrl": {
+   "bytes": 148163,
+   "sha256": "bca3130c49da70a7d763f194ec5fab5b7489f5db1e5d3f34dd23d0f2d3a7884a"
+  },
   "Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl": {
    "bytes": 18013,
    "sha256": "edd1de5a07b3b6d903024aab93512280b5ae5ecc564adc079876b8d80168afc0"
@@ -17,9 +21,33 @@
    "bytes": 18015,
    "sha256": "c8ce7903eeaceb189976a04f0f67070ad0fe21a7bbcd6605fe60786704368afd"
   },
+  "Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P2.00mm.wrl": {
+   "bytes": 72877,
+   "sha256": "15ace22e280df818acc8e3ff2fe8222946aeacee816ad88c142031a20dc9e711"
+  },
   "Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl": {
    "bytes": 76096,
    "sha256": "00d6acefe7032d866397d79638a040de5618472e9f13a460a5cf3565cc25009a"
+  },
+  "Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.wrl": {
+   "bytes": 78627,
+   "sha256": "f8fa389bb2bfb51c10fe7b9638d8a5a0854f2fd0bb80edded2fde3ba53ac995a"
+  },
+  "Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl": {
+   "bytes": 32735,
+   "sha256": "cbde758f0a1b701855e5b546e1bf9e214fd5dd15e541b0f7a31d4e14bbb071a1"
+  },
+  "Connector_BarrelJack.3dshapes/BarrelJack_GCT_DCJ200-10-A_Horizontal.wrl": {
+   "bytes": 263048,
+   "sha256": "dad3944186e991fb4bb7df40a387043d47a85345d45cfdb1123a3eab75e39bc8"
+  },
+  "Connector_Dsub.3dshapes/DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm.wrl": {
+   "bytes": 962472,
+   "sha256": "92fbe3290c6c43a5308fb58aa62a6c6949b364d58d512857e9c0a4f21186f76d"
+  },
+  "Connector_Dsub.3dshapes/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.wrl": {
+   "bytes": 824507,
+   "sha256": "143c46ee0a278399e5671fae5c6a3c928747ad5137a968dfdf17270e4de49d5a"
   },
   "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl": {
    "bytes": 15426,
@@ -44,6 +72,10 @@
   "Diode_SMD.3dshapes/D_SOD-123.wrl": {
    "bytes": 29362,
    "sha256": "5fd4e8488bd75b6b0fad9ad82e75257cf19dc83750caac25b29b758def07b636"
+  },
+  "Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl": {
+   "bytes": 74174,
+   "sha256": "c599ccc6269e58e1183e59074bf5bc62153447bd4df9273a839571ea5fc89ed8"
   },
   "Fuse.3dshapes/Fuse_0402_1005Metric.wrl": {
    "bytes": 14829,
@@ -93,6 +125,26 @@
    "bytes": 21674,
    "sha256": "d29b0db84d8d6252d83a5edaa1aac929ec8920e7a505193fa9409a9401163ea1"
   },
+  "Package_DIP.3dshapes/DIP-14_W7.62mm.wrl": {
+   "bytes": 104805,
+   "sha256": "65d510e4fd84a39abf3b88539415dc7fcc72fa4731acb93ef34e95726ebadc76"
+  },
+  "Package_DIP.3dshapes/DIP-16_W7.62mm.wrl": {
+   "bytes": 118359,
+   "sha256": "41023da664561197b3e9af581b4696cc4dcdd680f36c247ac965a04be0fd8f38"
+  },
+  "Package_DIP.3dshapes/DIP-20_W7.62mm.wrl": {
+   "bytes": 144724,
+   "sha256": "7d5df850164bb11ff9a352bc8560472fb4e188a73a8df04c114a32444e56f189"
+  },
+  "Package_DIP.3dshapes/DIP-28_W15.24mm.wrl": {
+   "bytes": 175602,
+   "sha256": "04461d6bb3112bf90f179e133639e597f8e5463eb4919e311b9eae25c39ce859"
+  },
+  "Package_DIP.3dshapes/DIP-40_W15.24mm.wrl": {
+   "bytes": 248574,
+   "sha256": "1590d49051f54973496863d43d09f9d4e676421ca3c99bac55af968174097236"
+  },
   "Package_DIP.3dshapes/DIP-8_W7.62mm.wrl": {
    "bytes": 69529,
    "sha256": "eebd3ff6052ef2db634e6a5de6812310666c08b90e0356887759648a3cc93a13"
@@ -132,6 +184,10 @@
   "Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl": {
    "bytes": 21376,
    "sha256": "753eecc0b715a57c2e88740f1825b98331b91924cac7dc9adf3f0b53d585139f"
+  },
+  "Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl": {
+   "bytes": 24020,
+   "sha256": "4f88be1260d7a25d5576cc26d4ed12bc2f4c38b78735dce3a8b76011f37faf35"
   },
   "Resistor_SMD.3dshapes/R_0402_1005Metric.wrl": {
    "bytes": 14831,
